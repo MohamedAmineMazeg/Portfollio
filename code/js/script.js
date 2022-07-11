@@ -1,11 +1,4 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
-    nav: true,
-    loop: true,
-    margin: 30,
- 
-  });
-
   $(".uikCnt").hover(function (){
     $('.uik').fadeToggle("1000")
   
@@ -22,4 +15,11 @@ $(document).ready(function () {
     $('.sym').fadeToggle("1000")
    
   })
+  $(".owl-carousel").owlCarousel({
+    nav: true,
+    loop: true,
+    margin: 30,
+ 
+  });
+
 });
